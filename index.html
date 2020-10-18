@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+    <title>Healthy Fit</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <h3 class="logo">Healthy<span> Fit</span></h3>
+            </div>
+
+            <!-- Nav bar -->
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">Workout</a>
+                        </li>
+                        <li class="nav-link" style="--i: .85s">
+                            <a href="#">Diet Plans<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Veg</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Non-Veg</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Services<i class="fas fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Gym</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Yoga</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.35s">
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Login and Rgister -->
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="login.html" class="btn transparent">LOGIN</a>
+                    <a href="#" class="btn solid">REGISTER</a>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    
+    <main>
+        <section>
+            <form class="bmi">
+                <h4>Know your body mass index</h4>
+                <input id="height" placeholder="Height (cm)">
+                <input id="weight" placeholder="Weight (kg)">
+                <button onclick="bmi()" class="bmi-btn">Calculate</button>
+                <fieldset id="result"></fieldset>
+            </form>
+            
+            <h1><b>Welcome to Healthy Fit</b></h1>
+            <h2>Get Fit and Lose Weight With Our Free Online Program</h2>
+            <h3>Get a <b>FREE</b> account and start using our proven weight loss and fitness tools today</h3>
+        </section>
+    </main>
+
+    
+
+</body>
+
+</html>
